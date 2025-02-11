@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className="text-white text-2xl font-semibold">
             <img src={c_logo} className="w-25" alt="" />
         </div>
-        <ul className="flex space-x-6 p-4">
+        <ul className="flex space-x-3 md:space-x-6 p-2 md:p-4">
           <li><a href="#" className="text-white hover:text-gray-200">Home</a></li>
           <li><a href="#about" className="text-white hover:text-gray-200">About</a></li>
           <li><a href="#contact" className="text-white hover:text-gray-200">Contact</a></li>
