@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <div className=" flex justify-center items-center bg-cover bg-center bg-fixed p-4" style={{ backgroundImage: "url(https://previews.123rf.com/images/prescott09/prescott091702/prescott09170200456/72299138-background-shot-of-aqua-sea-water-surface.jpg)" }}>
-      <form className="bg-transparent p-3 rounded-lg shadow-lg w-full max-w-md sm:max-w-lg border border-white backdrop-blur-lg">
+    <div className="flex justify-center items-center bg-cover bg-center bg-fixed p-4" style={{ backgroundImage: "url(https://previews.123rf.com/images/prescott09/prescott091702/prescott09170200456/72299138-background-shot-of-aqua-sea-water-surface.jpg)" }}>
+      <form data-aos="flip-left" data-aos-duration="2000" className="bg-transparent p-3 rounded-lg shadow-lg w-full max-w-md sm:max-w-lg border border-white backdrop-blur-lg">
         <h2 className="text-2xl font-bold mb-2 text-center text-white">Contact Us</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div>

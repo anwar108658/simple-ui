@@ -4,7 +4,7 @@ const Navbar = () => {
     <nav className="bg-teal-700">  {/* Solid blue background */}
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-2xl font-semibold">
-            <img src={c_logo} className="w-25" alt="" />
+            <img src={c_logo} className="w-15 md:w-25" alt="" />
         </div>
         <ul className="flex space-x-3 md:space-x-6 p-2 md:p-4">
           <li><a href="#" className="text-white hover:text-gray-200">Home</a></li>

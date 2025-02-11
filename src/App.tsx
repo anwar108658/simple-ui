@@ -15,8 +15,8 @@ function App() {
     }, 2000);
   },[])
   if (start) {
-    return <div className="bg-green-50 w-full h-screen flex justify-center items-center">
-       <img className="w-1/4" src={c_logo} />
+    return <div  className="bg-green-50 w-full h-screen flex justify-center items-center">
+       <img data-aos="flip-left" data-aos-duration="1000" className="w-1/4" src={c_logo} />
     </div>
   }
   return (

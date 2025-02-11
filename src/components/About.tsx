@@ -5,7 +5,7 @@ const About = () => {
                 <h1 className="text-teal-700 text-3xl font-extrabold">About Us</h1>
         </div>
         <div className="flex justify-center gap-16 flex-wrap items-center">
-            <div className="display grid grid-cols-2 gap-4">
+            <div className="display grid grid-cols-2 gap-4"  data-aos="fade-up-left" data-aos-duration="3000">
                 <div>
                     <img className=" w-30 md:w-50 rounded-lg mt-[-15px]"  src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149024129.jpg" alt="about" />
                 </div>
