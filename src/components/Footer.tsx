@@ -1,3 +1,5 @@
+import { Facebook, Instagram, X, YouTube } from "@mui/icons-material";
+
 const Footer = () => {
   return (
     <footer className="bg-[#00786F] text-white py-6">
@@ -8,6 +10,20 @@ const Footer = () => {
           <p className="text-sm">© 2025 All rights reserved.</p>
         </div>
 
+        <div className="flex gap-3 flex-col space-x-6 text-sm">
+          <a href="#" className="hover:underline">
+            Facebook <Facebook sx={{color:"Aqua"}}/>
+          </a>
+          <a href="#" className="hover:underline">
+            _YouTube <YouTube sx={{color:"red"}}/>
+          </a>
+          <a href="#" className="hover:underline">
+          Instagram <Instagram sx={{color:"pink"}}/>
+          </a>
+          <a href="#" className="hover:underline">
+            ___Twitter <X sx={{color:"black"}}/>
+          </a>
+        </div>
         {/* Center Section (Links) */}
         <div className="flex space-x-6 text-sm">
           <a href="#" className="hover:underline">Home</a>
